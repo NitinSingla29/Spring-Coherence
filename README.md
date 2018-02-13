@@ -3,6 +3,7 @@
 It's a spring based API to integrate Coherence cache with existing application based on Spring 4.1.6
 
 ## Steps
+    - Add Oracle_Home/coherence/lib/coherence.jar to classpath
     - Import Coherence Configuration via com.spring.coherence.configuration.CoherenceConfiguration 
     - Add sample application-cache.xml and tangosol-coherence-override.xml in in classpath (For maven project, add in resource folder)
     - Both xml files must precede coherence.jar in classpath
