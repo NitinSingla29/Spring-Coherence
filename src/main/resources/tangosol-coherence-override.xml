@@ -5,13 +5,13 @@
            xsi:schemaLocation="http://xmlns.oracle.com/coherence/coherence-operational-config coherence-operational-config.xsd">
     <cluster-config>
         <member-identity>
-            <cluster-name>"COHERENCE_CLUSTER</cluster-name>
+            <cluster-name>Coherence-Cluster</cluster-name>
         </member-identity>
 
         <multicast-listener>
-            <address>224.3.6.0</address>
-            <port>8085</port>
-            <time-to-live>0</time-to-live>
+            <address>231.1.1.1</address>
+            <port>33387</port>
+            <time-to-live>4</time-to-live>
         </multicast-listener>
     </cluster-config>
 
@@ -20,7 +20,8 @@
             <init-param>
                 <param-type>java.lang.String</param-type>
                 <param-value system-property="tangosol.coherence.cacheconfig">
-                    example-config.xml</param-value>
+                    application-cache.xml
+                </param-value>
             </init-param>
         </init-params>
     </configurable-cache-factory-config>
