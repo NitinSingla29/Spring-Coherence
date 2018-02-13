@@ -1,6 +1,6 @@
 # [Spring-Coherence](https://github.com/NitinSingla29/Spring-Coherence#spring-coherence)
 
-Its Spring based API to integrate with Coherence Application with existing application based on Spring 4.1.6
+It's a spring based API to integrate Coherence cache with existing application based on Spring 4.1.6
 
 ## Steps
     - Import Coherence Configuration via com.spring.coherence.configuration.CoherenceConfiguration 
